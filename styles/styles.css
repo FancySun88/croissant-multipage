@@ -1,7 +1,7 @@
 body {
   margin: 20px 20px;
   max-width: justify;
-  background-color: aquamarine;
+  background-color: azure;
 }
 
 h1,
@@ -12,7 +12,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 10px;
 }
 
 img {
@@ -21,4 +21,18 @@ img {
   border: 5px solid transparent;
   margin: 5px;
   border-image-width: 60px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
